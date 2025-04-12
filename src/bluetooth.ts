@@ -503,7 +503,7 @@ async function start() {
         // 记录正在检查设备的日志
         log(`正在检查设备: ${device.name}`);
         // 使用设备地址和名称进行匹配
-        if (device.name === DEVICE_NAME || device.address === DEVICE_ADDRESS) {
+        if (device.name === DEVICE_NAME || device.address === b520011b5E) {
           // 记录已找到目标设备的日志
           log(`已找到目标设备: ${device.name}`);
           console.log("已找到设备:", device);
